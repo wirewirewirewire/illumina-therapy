@@ -1,0 +1,122 @@
+@use "src/scss/meta" as *;
+
+.resources {
+}
+
+.background {
+  background: $layer-primary;
+}
+
+.wrapper {
+  position: relative !important;
+  z-index: 1;
+  @include breakpoint-up(md) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+}
+
+.imageLeft {
+  .wrapper {
+    flex-direction: row;
+  }
+}
+
+.image {
+  display: block;
+  width: 100%;
+  @include breakpoint-up(md) {
+    width: 40%;
+    margin-left: 10%;
+  }
+  height: auto;
+  // margin: -10% 0;
+}
+
+.imageLeft {
+  .story {
+    margin: 1em 0;
+  }
+  .image {
+    margin-left: 0;
+    margin-right: 10%;
+  }
+}
+
+.story {
+  flex: 1;
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.center {
+  padding: 2em 0;
+  margin: 2em;
+  // margin-bottom: 3em;
+
+  @include breakpoint-up(md) {
+    padding: 2em;
+    padding-bottom: 4em;
+  }
+  p {
+    font-size: 1.4em;
+    font-family: var(--font-brandon);
+  }
+  .story {
+    @include breakpoint-up(md) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.left {
+  h1 {
+    text-align: left;
+  }
+  @include breakpoint-up(md) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+}
+
+.imageLadanPortraitBackgroundCircle {
+  width: 15em;
+  height: auto;
+  position: absolute;
+  left: 18%;
+  top: -10%;
+  z-index: -1;
+  @include breakpoint-down(md) {
+    display: none;
+  }
+}
+
+.large {
+  margin-top: 1em;
+  margin-bottom: 4.4em;
+  text-align: center;
+  p {
+    font-size: 1.4em;
+    font-family: var(--font-brandon);
+    margin: 0.5em 0;
+    // font-family: $font-family; //: "brandon-grotesque", sans-serif;
+  }
+  :global(.wfp--btn) {
+    margin-top: 1.5em;
+    font-size: 1.1em !important;
+
+    &:hover {
+      :global(.wfp--btn__icon) {
+        transform: translateX(0.1em);
+      }
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "color": {
+    "button": {
+      "primary": {
+        "description": "",
+        "type": "color",
+        "value": "#0076ffff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:e77dc274c39ca7ae8858b6b3775a78abcf9f5add,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "primary hover": {
+        "description": "",
+        "type": "color",
+        "value": "#006be8ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:d6f50e08bd5357a78203f53c537933e90fcfa232,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "primary active": {
+        "description": "",
+        "type": "color",
+        "value": "#006be8ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:f6a9704c1021f21e3f69e47669cd3c6ef5444830,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "tertiary": {
+        "description": "",
+        "type": "color",
+        "value": "#d7dfe7ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:bcbbf6b7e908e07e8b7691514443bc5351ee6885,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "tertiary hover": {
+        "description": "",
+        "type": "color",
+        "value": "#c4cfdbff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:5f5fac612e3628a85ab318ca603e346c83767853,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "tertiary active": {
+        "description": "",
+        "type": "color",
+        "value": "#c4cfdbff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:77599a2e8892467c7e90782922998daf59efcc8b,",
+            "exportKey": "color"
+          }
+        }
+      }
+    },
+    "background": {
+      "inverse max": {
+        "description": "",
+        "type": "color",
+        "value": "#000000ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:e8d262588dc678e4ba8871ab328f1f4da27e5af6,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "inverse hover": {
+        "description": "",
+        "type": "color",
+        "value": "#323c44ff"
+      },
+      "inverse": {
+        "0": {
+          "type": "color",
+          "value": "#333945ff"
+        },
+        "1": {
+          "type": "color",
+          "value": "#00000033"
+        },
+        "description": ""
+      }
+    },
+    "dark": {
+      "layer": {
+        "layer": {
+          "0": {
+            "type": "color",
+            "value": "#273136ff"
+          },
+          "1": {
+            "type": "color",
+            "value": "#00000033"
+          },
+          "description": ""
+        }
+      },
+      "border": {
+        "strong": {
+          "description": "",
+          "type": "color",
+          "value": "#4b575eff"
+        }
+      },
+      "subtle": {
+        "description": "",
+        "type": "color",
+        "value": "#2c3844ff"
+      }
+    },
+    "field": {
+      "border": {
+        "description": "",
+        "type": "color",
+        "value": "#8c9ba5ff"
+      }
+    },
+    "primary": {
+      "focus": {
+        "description": "",
+        "type": "color",
+        "value": "#0076ffff"
+      },
+      "brand": {
+        "description": "",
+        "type": "color",
+        "value": "#0076ffff"
+      },
+      "interactive": {
+        "description": "",
+        "type": "color",
+        "value": "#0076ffff"
+      },
+      "focus invterse": {
+        "description": "",
+        "type": "color",
+        "value": "#0076ffff"
+      }
+    },
+    "layer": {
+      "accent": {
+        "description": "",
+        "type": "color",
+        "value": "#d7dfe8ff"
+      }
+    },
+    "link": {
+      "primary hover": {
+        "description": "",
+        "type": "color",
+        "value": "#006be8ff"
+      }
+    },
+    "support": {
+      "success light": {
+        "description": "",
+        "type": "color",
+        "value": "#eefcddff"
+      },
+      "success": {
+        "description": "",
+        "type": "color",
+        "value": "#7ec125ff"
+      }
+    }
+  }
+}

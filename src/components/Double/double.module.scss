@@ -1,0 +1,119 @@
+@use "src/scss/meta" as *;
+
+.background {
+  background: $layer-primary;
+}
+
+.wrapper {
+  @include breakpoint-up(md) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+}
+
+.twoImages {
+  @include breakpoint-up(md) {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    > * {
+      width: 48%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  p {
+    @include breakpoint-up(md) {
+      max-width: 80% !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+    margin-bottom: 1em;
+  }
+}
+/*
+.imageLeft {
+  .wrapper {
+    flex-direction: row;
+  }
+}
+
+.image {
+  display: block;
+  width: 100%;
+  @include breakpoint-up(md) {
+    width: 40%;
+    margin-left: 10%;
+  }
+  height: auto;
+  // margin: -10% 0;
+}
+
+.imageLeft {
+  .story {
+    margin: 1em 0;
+  }
+  .image {
+    margin-left: 0;
+    margin-right: 10%;
+  }
+}
+
+.story {
+  flex: 1;
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.center {
+  padding: 2em 0;
+  @include breakpoint-up(md) {
+    padding: 2em;
+  }
+  .story {
+    @include breakpoint-up(md) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.left {
+  h1 {
+    text-align: left;
+  }
+  @include breakpoint-up(md) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+}
+*/
+
+.areasOfExpertiseImage {
+  width: 100%;
+  height: auto;
+}
+
+.imageWrapper {
+  margin-top: -3em;
+  height: 20em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}

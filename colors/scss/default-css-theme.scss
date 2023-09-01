@@ -1,0 +1,54 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 24 May 2022 20:57:12 GMT
+ */
+
+@mixin theme-default() {
+  --support-warning-light: #222d32ff;
+  --support-error-light: #310d11ff;
+  --support-success-light: #143416ff;
+  --link-primary: #b06554;
+  --link-primary-hover: #b06554;
+  --border-strong: #2f3943ff;
+  --border-subtle: #1f262eff;
+  --button-tertiary-hover: #2e3e4fff;
+  --button-tertiary: #263443ff;
+  --button-secondary-hover: #000000;
+  --button-primary-hover: #b06554;
+  --button-primary: #b06554;
+  --layer-primary: #faede1;
+  --text-secondary: #5a6872ff;
+  --text-on-color: #b06554;
+  --text-primary: #000000;
+  --background-inverse: #121a1eff;
+  --background-inverse-hover: #222b32ff;
+  --field-border: #3e4c54ff;
+  --field: #ffffff;
+  --brand: #007dbcff;
+
+  --support-success: #7ec125ff;
+  --support-success-light: #eefcddff;
+  --link-primary: #b06554;
+  --link-visited: #b06554;
+  --layer-accent: #d7dfe8ff;
+  --focus-invterse: #ffffff;
+  --interactive: #b06554;
+  --brand: #ffffff;
+  --focus: #b06554;
+  --background-main: #fdfcfa;
+  --field-border: #ccc5b7;
+  --dark-subtle: #2c3844ff;
+  --dark-border-strong: #4b575eff;
+  --dark-layer-layer-1: #00000033;
+  --dark-layer-layer-0: #273136ff;
+  --background-inverse-1: #00000033;
+  --background-inverse-0: #333945ff;
+  --background-inverse-hover: #323c44ff;
+  --background-inverse-max: #000000ff;
+  --button-tertiary-active: #c4cfdbff;
+  --button-tertiary-hover: #c4cfdbff;
+  --button-tertiary: #d7dfe7ff;
+  --button-primary-active: #cc806f;
+  --button-primary-hover: #cc806f;
+  --button-primary: #db9686;
+}

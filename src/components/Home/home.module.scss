@@ -1,0 +1,73 @@
+@use "src/scss/meta" as *;
+
+.resources {
+  background: $layer-primary;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.image {
+  display: block;
+  width: 40%;
+  height: auto;
+  margin: -10% 0;
+  margin-left: 10%;
+}
+
+.intro {
+  margin-top: 1em;
+  margin-bottom: 1.4em;
+  text-align: center;
+  p {
+    font-size: 1.4em;
+    font-family: var(--font-brandon);
+    margin: 0.5em 0;
+    // font-family: $font-family; //: "brandon-grotesque", sans-serif;
+  }
+  :global(.wfp--btn) {
+    margin-top: 1.5em;
+    font-size: 1.1em !important;
+
+    &:hover {
+      :global(.wfp--btn__icon) {
+        transform: translateX(0.1em);
+      }
+    }
+  }
+}
+
+.areasOfExpertiseImage {
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  padding: 3em 0;
+}
+.heroImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    margin: auto;
+    width: 90%;
+    height: auto;
+  }
+}
+
+.imageWrapper {
+  margin-top: 1em;
+  @include breakpoint-up(md) {
+    margin-top: -3em;
+    height: 20em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,1086 @@
+{
+  "color": {
+    "button": {
+      "primary": {
+        "description": "",
+        "type": "color",
+        "value": "#0076ffff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:e77dc274c39ca7ae8858b6b3775a78abcf9f5add,",
+            "exportKey": "color"
+          }
+        },
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#0076ffff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:e77dc274c39ca7ae8858b6b3775a78abcf9f5add,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "name": "primary",
+        "attributes": {
+          "category": "color",
+          "type": "button",
+          "item": "primary",
+          "hex": "0076ff",
+          "rgb": {
+            "r": 0,
+            "g": 118,
+            "b": 255,
+            "a": 1
+          },
+          "hsl": {
+            "h": 212.23529411764707,
+            "s": 1,
+            "l": 0.5,
+            "a": 1
+          },
+          "hsv": {
+            "h": 212.23529411764707,
+            "s": 1,
+            "v": 1,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "button",
+          "primary"
+        ]
+      },
+      "primary hover": {
+        "description": "",
+        "type": "color",
+        "value": "#006be8ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:d6f50e08bd5357a78203f53c537933e90fcfa232,",
+            "exportKey": "color"
+          }
+        },
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#006be8ff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:d6f50e08bd5357a78203f53c537933e90fcfa232,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "name": "primary hover",
+        "attributes": {
+          "category": "color",
+          "type": "button",
+          "item": "primary hover",
+          "hex": "006be8",
+          "rgb": {
+            "r": 0,
+            "g": 107,
+            "b": 232,
+            "a": 1
+          },
+          "hsl": {
+            "h": 212.32758620689654,
+            "s": 1,
+            "l": 0.4549019607843137,
+            "a": 1
+          },
+          "hsv": {
+            "h": 212.32758620689654,
+            "s": 1,
+            "v": 0.9098039215686274,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "button",
+          "primary hover"
+        ]
+      },
+      "primary active": {
+        "description": "",
+        "type": "color",
+        "value": "#006be8ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:f6a9704c1021f21e3f69e47669cd3c6ef5444830,",
+            "exportKey": "color"
+          }
+        },
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#006be8ff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:f6a9704c1021f21e3f69e47669cd3c6ef5444830,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "name": "primary active",
+        "attributes": {
+          "category": "color",
+          "type": "button",
+          "item": "primary active",
+          "hex": "006be8",
+          "rgb": {
+            "r": 0,
+            "g": 107,
+            "b": 232,
+            "a": 1
+          },
+          "hsl": {
+            "h": 212.32758620689654,
+            "s": 1,
+            "l": 0.4549019607843137,
+            "a": 1
+          },
+          "hsv": {
+            "h": 212.32758620689654,
+            "s": 1,
+            "v": 0.9098039215686274,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "button",
+          "primary active"
+        ]
+      },
+      "tertiary": {
+        "description": "",
+        "type": "color",
+        "value": "#d7dfe7ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:bcbbf6b7e908e07e8b7691514443bc5351ee6885,",
+            "exportKey": "color"
+          }
+        },
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#d7dfe7ff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:bcbbf6b7e908e07e8b7691514443bc5351ee6885,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "name": "tertiary",
+        "attributes": {
+          "category": "color",
+          "type": "button",
+          "item": "tertiary",
+          "hex": "d7dfe7",
+          "rgb": {
+            "r": 215,
+            "g": 223,
+            "b": 231,
+            "a": 1
+          },
+          "hsl": {
+            "h": 210,
+            "s": 0.2499999999999999,
+            "l": 0.8745098039215686,
+            "a": 1
+          },
+          "hsv": {
+            "h": 210,
+            "s": 0.06926406926406926,
+            "v": 0.9058823529411765,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "button",
+          "tertiary"
+        ]
+      },
+      "tertiary hover": {
+        "description": "",
+        "type": "color",
+        "value": "#c4cfdbff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:5f5fac612e3628a85ab318ca603e346c83767853,",
+            "exportKey": "color"
+          }
+        },
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#c4cfdbff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:5f5fac612e3628a85ab318ca603e346c83767853,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "name": "tertiary hover",
+        "attributes": {
+          "category": "color",
+          "type": "button",
+          "item": "tertiary hover",
+          "hex": "c4cfdb",
+          "rgb": {
+            "r": 196,
+            "g": 207,
+            "b": 219,
+            "a": 1
+          },
+          "hsl": {
+            "h": 211.30434782608697,
+            "s": 0.24210526315789455,
+            "l": 0.8137254901960784,
+            "a": 1
+          },
+          "hsv": {
+            "h": 211.30434782608697,
+            "s": 0.10502283105022821,
+            "v": 0.8588235294117647,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "button",
+          "tertiary hover"
+        ]
+      },
+      "tertiary active": {
+        "description": "",
+        "type": "color",
+        "value": "#c4cfdbff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:77599a2e8892467c7e90782922998daf59efcc8b,",
+            "exportKey": "color"
+          }
+        },
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#c4cfdbff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:77599a2e8892467c7e90782922998daf59efcc8b,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "name": "tertiary active",
+        "attributes": {
+          "category": "color",
+          "type": "button",
+          "item": "tertiary active",
+          "hex": "c4cfdb",
+          "rgb": {
+            "r": 196,
+            "g": 207,
+            "b": 219,
+            "a": 1
+          },
+          "hsl": {
+            "h": 211.30434782608697,
+            "s": 0.24210526315789455,
+            "l": 0.8137254901960784,
+            "a": 1
+          },
+          "hsv": {
+            "h": 211.30434782608697,
+            "s": 0.10502283105022821,
+            "v": 0.8588235294117647,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "button",
+          "tertiary active"
+        ]
+      }
+    },
+    "background": {
+      "inverse max": {
+        "description": "",
+        "type": "color",
+        "value": "#000000ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:e8d262588dc678e4ba8871ab328f1f4da27e5af6,",
+            "exportKey": "color"
+          }
+        },
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#000000ff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:e8d262588dc678e4ba8871ab328f1f4da27e5af6,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "name": "inverse max",
+        "attributes": {
+          "category": "color",
+          "type": "background",
+          "item": "inverse max",
+          "hex": "000000",
+          "rgb": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "hsl": {
+            "h": 0,
+            "s": 0,
+            "l": 0,
+            "a": 1
+          },
+          "hsv": {
+            "h": 0,
+            "s": 0,
+            "v": 0,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "background",
+          "inverse max"
+        ]
+      },
+      "inverse hover": {
+        "description": "",
+        "type": "color",
+        "value": "#323c44ff",
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#323c44ff"
+        },
+        "name": "inverse hover",
+        "attributes": {
+          "category": "color",
+          "type": "background",
+          "item": "inverse hover",
+          "hex": "323c44",
+          "rgb": {
+            "r": 50,
+            "g": 60,
+            "b": 68,
+            "a": 1
+          },
+          "hsl": {
+            "h": 206.66666666666666,
+            "s": 0.15254237288135591,
+            "l": 0.23137254901960785,
+            "a": 1
+          },
+          "hsv": {
+            "h": 206.66666666666666,
+            "s": 0.2647058823529412,
+            "v": 0.26666666666666666,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "background",
+          "inverse hover"
+        ]
+      },
+      "inverse": {
+        "0": {
+          "type": "color",
+          "value": "#333945ff",
+          "filePath": "tokens/design-tokens.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#333945ff"
+          },
+          "name": "0",
+          "attributes": {
+            "category": "color",
+            "type": "background",
+            "item": "inverse",
+            "subitem": "0",
+            "hex": "333945",
+            "rgb": {
+              "r": 51,
+              "g": 57,
+              "b": 69,
+              "a": 1
+            },
+            "hsl": {
+              "h": 219.99999999999997,
+              "s": 0.14999999999999994,
+              "l": 0.23529411764705882,
+              "a": 1
+            },
+            "hsv": {
+              "h": 219.99999999999997,
+              "s": 0.26086956521739124,
+              "v": 0.27058823529411763,
+              "a": 1
+            }
+          },
+          "path": [
+            "color",
+            "background",
+            "inverse",
+            "0"
+          ]
+        },
+        "1": {
+          "type": "color",
+          "value": "#00000033",
+          "filePath": "tokens/design-tokens.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#00000033"
+          },
+          "name": "1",
+          "attributes": {
+            "category": "color",
+            "type": "background",
+            "item": "inverse",
+            "subitem": "1",
+            "hex": "000000",
+            "rgb": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.2
+            },
+            "hsl": {
+              "h": 0,
+              "s": 0,
+              "l": 0,
+              "a": 0.2
+            },
+            "hsv": {
+              "h": 0,
+              "s": 0,
+              "v": 0,
+              "a": 0.2
+            }
+          },
+          "path": [
+            "color",
+            "background",
+            "inverse",
+            "1"
+          ]
+        },
+        "description": ""
+      }
+    },
+    "dark": {
+      "layer": {
+        "layer": {
+          "0": {
+            "type": "color",
+            "value": "#273136ff",
+            "filePath": "tokens/design-tokens.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "#273136ff"
+            },
+            "name": "0",
+            "attributes": {
+              "category": "color",
+              "type": "dark",
+              "item": "layer",
+              "subitem": "layer",
+              "state": "0",
+              "hex": "273136",
+              "rgb": {
+                "r": 39,
+                "g": 49,
+                "b": 54,
+                "a": 1
+              },
+              "hsl": {
+                "h": 199.99999999999997,
+                "s": 0.1612903225806451,
+                "l": 0.1823529411764706,
+                "a": 1
+              },
+              "hsv": {
+                "h": 199.99999999999997,
+                "s": 0.27777777777777773,
+                "v": 0.21176470588235294,
+                "a": 1
+              }
+            },
+            "path": [
+              "color",
+              "dark",
+              "layer",
+              "layer",
+              "0"
+            ]
+          },
+          "1": {
+            "type": "color",
+            "value": "#00000033",
+            "filePath": "tokens/design-tokens.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "#00000033"
+            },
+            "name": "1",
+            "attributes": {
+              "category": "color",
+              "type": "dark",
+              "item": "layer",
+              "subitem": "layer",
+              "state": "1",
+              "hex": "000000",
+              "rgb": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.2
+              },
+              "hsl": {
+                "h": 0,
+                "s": 0,
+                "l": 0,
+                "a": 0.2
+              },
+              "hsv": {
+                "h": 0,
+                "s": 0,
+                "v": 0,
+                "a": 0.2
+              }
+            },
+            "path": [
+              "color",
+              "dark",
+              "layer",
+              "layer",
+              "1"
+            ]
+          },
+          "description": ""
+        }
+      },
+      "border": {
+        "strong": {
+          "description": "",
+          "type": "color",
+          "value": "#4b575eff",
+          "filePath": "tokens/design-tokens.tokens.json",
+          "isSource": true,
+          "original": {
+            "description": "",
+            "type": "color",
+            "value": "#4b575eff"
+          },
+          "name": "strong",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "border",
+            "subitem": "strong",
+            "hex": "4b575e",
+            "rgb": {
+              "r": 75,
+              "g": 87,
+              "b": 94,
+              "a": 1
+            },
+            "hsl": {
+              "h": 202.10526315789477,
+              "s": 0.11242603550295859,
+              "l": 0.3313725490196079,
+              "a": 1
+            },
+            "hsv": {
+              "h": 202.10526315789477,
+              "s": 0.2021276595744681,
+              "v": 0.3686274509803922,
+              "a": 1
+            }
+          },
+          "path": [
+            "color",
+            "dark",
+            "border",
+            "strong"
+          ]
+        }
+      },
+      "subtle": {
+        "description": "",
+        "type": "color",
+        "value": "#2c3844ff",
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#2c3844ff"
+        },
+        "name": "subtle",
+        "attributes": {
+          "category": "color",
+          "type": "dark",
+          "item": "subtle",
+          "hex": "2c3844",
+          "rgb": {
+            "r": 44,
+            "g": 56,
+            "b": 68,
+            "a": 1
+          },
+          "hsl": {
+            "h": 210,
+            "s": 0.21428571428571427,
+            "l": 0.2196078431372549,
+            "a": 1
+          },
+          "hsv": {
+            "h": 210,
+            "s": 0.35294117647058826,
+            "v": 0.26666666666666666,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "dark",
+          "subtle"
+        ]
+      }
+    },
+    "field": {
+      "border": {
+        "description": "",
+        "type": "color",
+        "value": "#8c9ba5ff",
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#8c9ba5ff"
+        },
+        "name": "border",
+        "attributes": {
+          "category": "color",
+          "type": "field",
+          "item": "border",
+          "hex": "8c9ba5",
+          "rgb": {
+            "r": 140,
+            "g": 155,
+            "b": 165,
+            "a": 1
+          },
+          "hsl": {
+            "h": 204.00000000000003,
+            "s": 0.12195121951219509,
+            "l": 0.5980392156862746,
+            "a": 1
+          },
+          "hsv": {
+            "h": 204.00000000000003,
+            "s": 0.1515151515151515,
+            "v": 0.6470588235294118,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "field",
+          "border"
+        ]
+      }
+    },
+    "primary": {
+      "focus": {
+        "description": "",
+        "type": "color",
+        "value": "#0076ffff",
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#0076ffff"
+        },
+        "name": "focus",
+        "attributes": {
+          "category": "color",
+          "type": "primary",
+          "item": "focus",
+          "hex": "0076ff",
+          "rgb": {
+            "r": 0,
+            "g": 118,
+            "b": 255,
+            "a": 1
+          },
+          "hsl": {
+            "h": 212.23529411764707,
+            "s": 1,
+            "l": 0.5,
+            "a": 1
+          },
+          "hsv": {
+            "h": 212.23529411764707,
+            "s": 1,
+            "v": 1,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "primary",
+          "focus"
+        ]
+      },
+      "brand": {
+        "description": "",
+        "type": "color",
+        "value": "#0076ffff",
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#0076ffff"
+        },
+        "name": "brand",
+        "attributes": {
+          "category": "color",
+          "type": "primary",
+          "item": "brand",
+          "hex": "0076ff",
+          "rgb": {
+            "r": 0,
+            "g": 118,
+            "b": 255,
+            "a": 1
+          },
+          "hsl": {
+            "h": 212.23529411764707,
+            "s": 1,
+            "l": 0.5,
+            "a": 1
+          },
+          "hsv": {
+            "h": 212.23529411764707,
+            "s": 1,
+            "v": 1,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "primary",
+          "brand"
+        ]
+      },
+      "interactive": {
+        "description": "",
+        "type": "color",
+        "value": "#0076ffff",
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#0076ffff"
+        },
+        "name": "interactive",
+        "attributes": {
+          "category": "color",
+          "type": "primary",
+          "item": "interactive",
+          "hex": "0076ff",
+          "rgb": {
+            "r": 0,
+            "g": 118,
+            "b": 255,
+            "a": 1
+          },
+          "hsl": {
+            "h": 212.23529411764707,
+            "s": 1,
+            "l": 0.5,
+            "a": 1
+          },
+          "hsv": {
+            "h": 212.23529411764707,
+            "s": 1,
+            "v": 1,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "primary",
+          "interactive"
+        ]
+      },
+      "focus invterse": {
+        "description": "",
+        "type": "color",
+        "value": "#0076ffff",
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#0076ffff"
+        },
+        "name": "focus invterse",
+        "attributes": {
+          "category": "color",
+          "type": "primary",
+          "item": "focus invterse",
+          "hex": "0076ff",
+          "rgb": {
+            "r": 0,
+            "g": 118,
+            "b": 255,
+            "a": 1
+          },
+          "hsl": {
+            "h": 212.23529411764707,
+            "s": 1,
+            "l": 0.5,
+            "a": 1
+          },
+          "hsv": {
+            "h": 212.23529411764707,
+            "s": 1,
+            "v": 1,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "primary",
+          "focus invterse"
+        ]
+      }
+    },
+    "layer": {
+      "accent": {
+        "description": "",
+        "type": "color",
+        "value": "#d7dfe8ff",
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#d7dfe8ff"
+        },
+        "name": "accent",
+        "attributes": {
+          "category": "color",
+          "type": "layer",
+          "item": "accent",
+          "hex": "d7dfe8",
+          "rgb": {
+            "r": 215,
+            "g": 223,
+            "b": 232,
+            "a": 1
+          },
+          "hsl": {
+            "h": 211.76470588235296,
+            "s": 0.26984126984126966,
+            "l": 0.8764705882352941,
+            "a": 1
+          },
+          "hsv": {
+            "h": 211.76470588235296,
+            "s": 0.0732758620689655,
+            "v": 0.9098039215686274,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "layer",
+          "accent"
+        ]
+      }
+    },
+    "link": {
+      "primary hover": {
+        "description": "",
+        "type": "color",
+        "value": "#006be8ff",
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#006be8ff"
+        },
+        "name": "primary hover",
+        "attributes": {
+          "category": "color",
+          "type": "link",
+          "item": "primary hover",
+          "hex": "006be8",
+          "rgb": {
+            "r": 0,
+            "g": 107,
+            "b": 232,
+            "a": 1
+          },
+          "hsl": {
+            "h": 212.32758620689654,
+            "s": 1,
+            "l": 0.4549019607843137,
+            "a": 1
+          },
+          "hsv": {
+            "h": 212.32758620689654,
+            "s": 1,
+            "v": 0.9098039215686274,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "link",
+          "primary hover"
+        ]
+      }
+    },
+    "support": {
+      "success light": {
+        "description": "",
+        "type": "color",
+        "value": "#eefcddff",
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#eefcddff"
+        },
+        "name": "success light",
+        "attributes": {
+          "category": "color",
+          "type": "support",
+          "item": "success light",
+          "hex": "eefcdd",
+          "rgb": {
+            "r": 238,
+            "g": 252,
+            "b": 221,
+            "a": 1
+          },
+          "hsl": {
+            "h": 87.09677419354838,
+            "s": 0.8378378378378384,
+            "l": 0.9274509803921569,
+            "a": 1
+          },
+          "hsv": {
+            "h": 87.09677419354838,
+            "s": 0.12301587301587302,
+            "v": 0.9882352941176471,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "support",
+          "success light"
+        ]
+      },
+      "success": {
+        "description": "",
+        "type": "color",
+        "value": "#7ec125ff",
+        "filePath": "tokens/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "description": "",
+          "type": "color",
+          "value": "#7ec125ff"
+        },
+        "name": "success",
+        "attributes": {
+          "category": "color",
+          "type": "support",
+          "item": "success",
+          "hex": "7ec125",
+          "rgb": {
+            "r": 126,
+            "g": 193,
+            "b": 37,
+            "a": 1
+          },
+          "hsl": {
+            "h": 85.76923076923076,
+            "s": 0.6782608695652174,
+            "l": 0.45098039215686275,
+            "a": 1
+          },
+          "hsv": {
+            "h": 85.76923076923076,
+            "s": 0.8082901554404145,
+            "v": 0.7568627450980392,
+            "a": 1
+          }
+        },
+        "path": [
+          "color",
+          "support",
+          "success"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+@use "src/scss/meta" as *;
+
+.resources {
+}
+
+.background {
+  background: $layer-primary;
+}
+
+.wrapper {
+  @include breakpoint-up(md) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+}
+
+.form {
+  width: 100%;
+  margin-top: 2em;
+  > * {
+    margin-bottom: 1em;
+  }
+}
+
+.imageWrapper {
+  margin-left: 10%;
+  margin-top: 5%;
+  @include breakpoint-down(md) {
+    display: none;
+  }
+  @include breakpoint-up(md) {
+    width: 70%;
+  }
+}
+
+.image {
+  display: block;
+  width: 100%;
+
+  height: auto;
+  // margin: -10% 0;
+}
+
+.imageLeft {
+  .story {
+    margin: 1em 0;
+  }
+  .image {
+    margin-left: 0;
+    margin-right: 10%;
+  }
+}
+
+.story {
+  flex: 1;
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.center {
+  padding: 2em 0;
+  @include breakpoint-up(md) {
+    padding: 2em;
+  }
+  .story {
+    @include breakpoint-up(md) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.left {
+  h1 {
+    text-align: left;
+  }
+  @include breakpoint-up(md) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+}

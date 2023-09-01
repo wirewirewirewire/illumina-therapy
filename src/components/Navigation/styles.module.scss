@@ -1,0 +1,241 @@
+@use "src/scss/meta" as *;
+
+.logo {
+  height: 4.3em;
+  width: auto;
+
+  @include breakpoint-up(md) {
+    height: 4em;
+  }
+
+  @include breakpoint-up(lg) {
+    height: 5.5rem;
+  }
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+
+.mainNavigation {
+  max-width: 1500px;
+  margin: auto;
+  color: rgba(#fff, 0.7);
+  font-size: 1rem;
+  @include breakpoint-up(md) {
+    margin-top: 2em;
+    :global(.wfp--main-navigation__wrapper) {
+      align-items: center;
+    }
+  }
+
+  :global(.wfp--main-navigation__list) {
+    @include breakpoint-down(md) {
+      max-height: 0;
+      display: block;
+      overflow: hidden;
+      width: 100%;
+      z-index: 100000;
+      transition: max-height 0.2s ease-in;
+      padding: 0 !important;
+      transition: max-height 0.2s ease-out;
+    }
+    @include breakpoint-up(md) {
+      flex: 1;
+    }
+  }
+  :global(.wfp--main-navigation__list--open) {
+    // border-bottom: 1px solid #fff;
+    max-height: 500px;
+  }
+  :global(.wfp--main-navigation__item) {
+    // padding: 0 1.3rem;
+  }
+
+  :global(.wfp--main-navigation__trigger) {
+    background-color: transparent !important;
+    border-bottom-color: rgba(#fff, 0.05);
+  }
+  :global(.wfp--main-navigation__trigger a) {
+    font-weight: 100;
+  }
+  :global(.active) {
+    font-weight: 700 !important;
+    color: rgba(#fff, 1) !important;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+  }
+
+  :global(.wfp--main-navigation__logo-wrapper) {
+    height: 6em !important;
+    margin-left: 0.5em;
+    flex-grow: 0;
+  }
+}
+
+.user {
+  a {
+    //color: $text-primary !important;
+  }
+  display: flex;
+  align-items: center;
+}
+
+.logout {
+  svg {
+    margin-left: 0.3em;
+  }
+}
+
+.user {
+  max-width: 30em;
+  font-weight: 500;
+
+  :global(.wfp--sub-navigation__title) {
+    display: block;
+  }
+
+  @include breakpoint-down(md) {
+    flex-direction: column;
+    > div {
+      width: 100%;
+    }
+  }
+
+  :global(.wfp--main-navigation__trigger) {
+    display: flex;
+    align-items: center;
+    > div {
+      display: flex;
+      align-items: center;
+    }
+    > * {
+      @include breakpoint-down(md) {
+        flex-grow: 1;
+      }
+    }
+  }
+  @include breakpoint-up(md) {
+    :global(.wfp--main-navigation__sub--open) {
+      left: inherit;
+      top: 5rem;
+      right: 0;
+      width: 20%;
+      min-width: 100px;
+      background: $background-main;
+    }
+
+    :global(.wfp--main-navigation__trigger__icon) {
+      font-size: 0.7em;
+      margin-left: 0.4em;
+      top: 0;
+    }
+  }
+}
+
+.language {
+  display: flex;
+  > * {
+    @include breakpoint-down(md) {
+      margin-right: 0.3em;
+    }
+    @include breakpoint-up(md) {
+      margin-left: 0.3em;
+    }
+    position: relative;
+  }
+  @include breakpoint-up(md) {
+    max-width: 5em;
+    :global(.wfp--main-navigation__sub--open) {
+      min-width: 120px;
+      width: 18%;
+    }
+  }
+}
+.selected {
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &:after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1.5px;
+    background-color: rgba(#fff, 0.7);
+  }
+}
+
+.contactButton {
+  color: $text-inverse !important;
+  &:hover {
+    text-decoration: none !important;
+  }
+  @include breakpoint-down(md) {
+    font-size: 1.1em;
+  }
+}
+
+.navigationCenter {
+  @include breakpoint-up(md) {
+    position: absolute;
+    width: 50%;
+    display: flex;
+    left: 25%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.mainAdditional {
+  display: flex;
+  flex-direction: column;
+  font-weight: 200;
+  /*@include breakpoint-down(md) {
+    border-top: 2px solid rgba(#fff, 0.1);
+    padding-top: 0.7em;
+    margin-top: -0.4em;
+  }*/
+  @include breakpoint-up(md) {
+    text-align: right;
+
+    align-items: flex-end;
+  }
+  > * {
+    @include breakpoint-down(md) {
+      margin: 0.75em 0;
+    }
+    @include breakpoint-up(md) {
+      margin-bottom: 0.7em;
+    }
+  }
+}
+
+.mobileButton {
+  background-color: transparent !important;
+  color: $interactive !important;
+
+  @include breakpoint-up(md) {
+    display: none !important;
+  }
+
+  font-size: 2.3em !important;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+
+.centerMenu {
+  @include breakpoint-up(md) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-right: 5em;
+  }
+}

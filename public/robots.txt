@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://illuminatherapy.de
+
+# Sitemaps
+Sitemap: https://illuminatherapy.de/sitemap.xml

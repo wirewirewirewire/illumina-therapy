@@ -1,0 +1,121 @@
+@use "src/scss/meta" as *;
+
+.footer {
+  // background: $layer-primary;
+  padding: 2em 1em;
+  margin-top: 4em;
+
+  //font-weight: 100;
+
+  //color: rgba(#fff, 0.7);
+  background: #f2d5c8;
+
+  p {
+  }
+
+  @include breakpoint-up(md) {
+    padding: 2em;
+  }
+  @include breakpoint-up(lg) {
+    padding: 4em;
+  }
+
+  .footerInside {
+    @include breakpoint-up(md) {
+      display: flex;
+      align-items: center;
+      margin: auto;
+    }
+  }
+}
+
+.section {
+  @include breakpoint-down(md) {
+    margin-bottom: 3em;
+  }
+  margin-right: 3em;
+  h3 {
+    font-weight: 600;
+  }
+  ul {
+    margin: 0.3em 0;
+    li {
+      margin: 1em 0;
+    }
+  }
+}
+
+.secondSection {
+  flex: 1;
+}
+
+.lastSection {
+  @include breakpoint-down(md) {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  @include breakpoint-up(md) {
+    text-align: right;
+    margin-right: 0;
+  }
+
+  flex: 1;
+  line-height: 1.75;
+}
+
+.madeIn {
+  margin-top: 1em;
+  text-align: center;
+  line-height: 1.5;
+  p {
+    font-size: 0.8em;
+  }
+  @include breakpoint-up(md) {
+    min-width: 50%;
+    flex: 1;
+  }
+}
+
+.selected {
+  > a {
+    color: $text-primary !important;
+  }
+}
+
+.linkList {
+  // display: flex;
+  @include breakpoint-up(md) {
+    min-width: 20%;
+  }
+  :global(.wfp--btn) {
+    margin-left: -0.2em;
+  }
+  li {
+    padding-bottom: 1em;
+    flex-grow: 1;
+    a {
+      display: flex;
+
+      @include breakpoint-down(md) {
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.footerInfo {
+  line-height: 1.5;
+  @include breakpoint-up(md) {
+    text-align: right;
+    max-width: 30%;
+  }
+}
+
+.infoIcon {
+  margin-top: -2em;
+  margin-bottom: 0.3em;
+  width: 6em;
+  height: auto;
+}
